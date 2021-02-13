@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#header { /*mettre la barre de nav à droite et le logo à gauche*/
+    position: fixed;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    min-height: 8vw;
+    background-color: rgb(6, 37, 66);
+}
+
+#header-img {
+    width: 32vw;
+    height: 8vw;   
+}
+
+#nav-bar { /*barre de navigation*/
+    font-weight: 300;
+    right: 0;
+    top: 0.5rem;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+a { /*enlève l'effet surligné*/
+  text-decoration: none;
+}
+
+body {
+  margin-top: 100px;
+  height: auto;
+  max-width: 100%;
+}
+
+#template {
+  max-width: 100%;
+  margin-top: -8vh;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 70px;
+}
+
+#features {
+  margin-top: 100px;
+}
+
+.desk {
+  max-width: 400px;
+  justify-content: center;
+  text-align: justify;
+  margin: 10px auto;
+}
+
+#hiw {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-size: 2.5em;
+}
+
+#howitworks{ /*video youtube*/
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#produits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20vh;
+  border-radius: 50%;
+  
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 2);
+  border: 1px solid #000;
+  border-radius: 3px;
+  max-width: 300px;
+  margin: 3.5vw;
+  background-color: rgb(6, 37, 66);
+}
+
+.level {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 600;
+  padding: 15px 0;
+  width: 100%;
+  background-color:rgb(1, 194, 137);
+  color: white;
+  margin-bottom: 4vh;
+}
+
+.product > ol {
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+.product > p {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+.product > ol > li {
+  padding: 12px 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 1em;
+}
+
+.product > button {
+  margin: 2vh 0;
+}
+
+.product > button:hover {
+  background-color: white;
+  color: #000;
+  transition: 1s;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color:rgb(6, 37, 66);
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+}
+
+.btn {
+  background-color: rgb(6, 37, 66);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+#first{ /*email*/
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#email{
+  padding: 6px 30px;
+  border-radius: 0.5em;
+  margin-bottom: 3vw;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: rgb(6, 37, 66);
+}
+
+#first input[type='submit'], #first input[type='email'] {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+
+}
+
+#first input[type='submit']:hover {
+  background-color: white;
+  color: #000;
+  transition: 1s;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10vw;
+  background-color: rgb(6, 37, 66);
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  align-items: center;
+}
